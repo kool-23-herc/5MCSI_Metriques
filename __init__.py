@@ -13,7 +13,7 @@ def hello_world():
 
 @app.route("/contact/")
 def MaPremiereAPI():
-    return render_template('formulaire.html')"<h2>Ma page de contact</h2>"
+    return render_template('formulaire.html')
 
 @app.route('/tawarano/')
 def meteo():
